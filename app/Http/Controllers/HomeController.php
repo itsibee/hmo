@@ -14,7 +14,7 @@ use Lunaweb\RecaptchaV3\Facades\RecaptchaV3;
 class HomeController extends Controller
 {
     function index() {
-        return view('HMO');
+        return view('hmo');
     }
 
     function registerEvent(Request $request) {
