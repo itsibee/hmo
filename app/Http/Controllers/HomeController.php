@@ -144,8 +144,8 @@ class HomeController extends Controller
         $listOfEmailAddresses = [
             'olasoji.olatunji@faan.gov.ng',
             'ibrahim_usman@faan.gov.ng',
-            'HMO@faan.gov.ng',
-            'mariam.nasir@faan.gov.ng'
+            // 'HMO@faan.gov.ng',
+            // 'mariam.nasir@faan.gov.ng'
         ];
 
         $filepath = (new AttendeeService())->generateExport();
