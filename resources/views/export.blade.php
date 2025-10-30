@@ -30,10 +30,9 @@
               <td style="padding:28px 40px 8px 40px; font-family: Arial, Helvetica, sans-serif; color:#1a2430;">
                 <p style="margin:0 0 10px; font-size:16px;">Hello,</p>
                 <p style="margin:0 0 10px; font-size:16px; line-height:1.55; color:#2b3b4f;">
-                  Find attached the HMO attendee export.<br>
+                  Find attached the HMO export.<br>
                 </p>
                 <p style="margin:0 0 10px; font-size:16px; line-height:1.55; color:#2b3b4f;">
-                  The HMO 2025 Team<br>
                   Federal Airports Authority of Nigeria (FAAN)
                 </p>
               </td>
