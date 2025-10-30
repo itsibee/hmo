@@ -8975,7 +8975,7 @@ p.sticky-label {
 .register-wrapper-3 .register-form-box .form-clt .list {
   width: 100%;  
   overflow-y: auto;
-  height: 200px;
+  max-height: 300px;
 }
 .register-wrapper-3 .register-form-box .theme-btn {
   width: 100%;
