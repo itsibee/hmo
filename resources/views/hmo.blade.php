@@ -36,7 +36,7 @@
     <!--<< Style.css >>-->
     <link rel="stylesheet" href="style.css">
 
-    {!! RecaptchaV3::initJs() !!}
+    {{-- {!! RecaptchaV3::initJs() !!} --}}
 
 </head>
 
