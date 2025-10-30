@@ -1,0 +1,94 @@
+/*!
+ * Theme Name: Default
+ * Package : DashLite
+ * Author: Softnio
+ * Author URI: http://themeforest.net/user/softnio
+ * Version	 :	1.0.0
+ * Updated	 :	07.23.2020
+**/
+
+
+.searchable-tag-area {
+    padding: 0.5rem;
+    outline: none;
+    width: 100%;
+    border: 2px solid #dbdfea;
+    border-radius: 5px;
+    transition: all 0.2s;
+    cursor: text;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchable-tag-label {
+    position: absolute;
+    background: #ffffff;
+    padding: 0 0.3rem;
+    color: #adadad;
+    top: 22px;
+    transition: all 0.1s;
+}
+
+.searchable-tag-label-active {
+    top: -11px;
+    color: #E32504;
+    font-size: 13px;
+}
+
+.searchable-tag-area ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.searchable-tag {
+    padding-left: 0.5rem;
+    background: #E32504;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.3rem;
+    color: #fff;
+}
+
+.searchable-tag-input {
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    width: 150px;
+    margin-left: 0.5rem;
+    background: transparent;
+    font-size: 20px;
+    color: #000;
+}
+
+
+.cross {
+    cursor: pointer;
+    display: flex;
+    margin-left: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    border-radius: 5px;
+    background: #E32504;
+}
+
+.cross:hover {
+    background: #818181b1;
+}
+
+.cross::before, .cross::after {
+    content: "";
+    width: 2px;
+    height: 16px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    transform: rotate(45deg); /* Rotate the lines to form an 'X' */
+}
+
+.cross::after {
+    transform: rotate(-45deg); /* Rotate the lines to form an 'X' */
+}
