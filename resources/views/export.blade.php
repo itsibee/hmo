@@ -58,7 +58,7 @@
             <tr>
               <td style="padding:0 40px 32px 40px; font-family: Arial, Helvetica, sans-serif; color:#5b6b7a;">
                 <p style="margin:0; font-size:14px; line-height:1.5;">
-                  If you have any issues at the venue, please contact our support staff.
+                  If you have any issues, please contact our support staff.
                 </p>
               </td>
             </tr>
