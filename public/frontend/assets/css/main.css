@@ -561,6 +561,11 @@ p {
 .section-padding {
   padding: 120px 0;
 }
+
+.section-padding-sm {
+  background-color: #007946;
+  padding-bottom: 40px;
+}
 @media (max-width: 1199px) {
   .section-padding {
     padding: 100px 0;
@@ -8968,7 +8973,9 @@ p.sticky-label {
   color: var(--text);
 }
 .register-wrapper-3 .register-form-box .form-clt .list {
-  width: 100%;
+  width: 100%;  
+  overflow-y: auto;
+  height: 200px;
 }
 .register-wrapper-3 .register-form-box .theme-btn {
   width: 100%;

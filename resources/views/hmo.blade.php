@@ -95,7 +95,7 @@
 
 
     <!-- ferature-conference Section Start -->
-    <section class="ferature-conference-section fix section-bg " id="register">
+    <section class="ferature-conference-section fix section-bg section-padding-sm " id="register">
         <div class="container">
             <div class="feature-conference-wrapper register-wrapper-3">
                 <div class="row g-4 align-items-center">
@@ -137,9 +137,78 @@
 
                                     <div class="col-lg-12">
                                         <div class="form-clt">
-                                            <span>Department </span>
-                                            <input type="text" name="department" id="department20"
-                                                placeholder="e.g. Public Affairs" required>
+                                            <span>Department</span>
+                                            <select class="single-select w-100" name="department" id="department" required>
+                                                <option value="MD">MD</option>
+                                                <option value="BOARD">BOARD</option>
+                                                <option value="LEGAL">LEGAL</option>
+                                                <option value="INTERNAL AUDIT">INTERNAL AUDIT</option>
+                                                <option value="PROTOCOL AND PASSAGES">PROTOCOL AND PASSAGES</option>
+                                                <option value="CUSTOMER SERVICE">CUSTOMER SERVICE</option>
+                                                <option value="INFORMATION TECHNOLOGY">INFORMATION TECHNOLOGY</option>
+                                                <option value="SAFETY SERVICES">SAFETY SERVICES</option>
+                                                <option value="PROCUREMENT">PROCUREMENT</option>
+                                                <option value="CORPORATE AFFAIRS DEPARTMENT">CORPORATE AFFAIRS DEPARTMENT</option>
+                                                <option value="RESEARCH AND DEVELOPMENT">RESEARCH AND DEVELOPMENT</option>
+                                                <option value="REVENUE">REVENUE</option>
+                                                <option value="DIRECTORATE OF LEGAL SERVICES">DIRECTORATE OF LEGAL SERVICES</option>
+                                                <option value="DCS">DCS</option>
+                                                <option value="PLANNING DEPT">PLANNING DEPT</option>
+                                                <option value="STATISTICS">STATISTICS</option>
+                                                <option value="DIRECTOR OF HUMAN RESOURCES AND ADMINISTRATIONS">DIRECTOR OF HUMAN RESOURCES AND ADMINISTRATIONS</option>
+                                                <option value="HUMAN RESOURCES">HUMAN RESOURCES</option>
+                                                <option value="TRAINING AND MAN POWER DEV.">TRAINING AND MAN POWER DEV.</option>
+                                                <option value="TRANSPORT">TRANSPORT</option>
+                                                <option value="INTERNAL ADMIN">INTERNAL ADMIN</option>
+                                                <option value="AVIATION MEDICAL CLINIC">AVIATION MEDICAL CLINIC</option>
+                                                <option value="WELFARE AND MANAGEMENT SERVICES">WELFARE AND MANAGEMENT SERVICES</option>
+                                                <option value="STORES">STORES</option>
+                                                <option value="DHRA">DHRA</option>
+                                                <option value="DCBD">DCBD</option>
+                                                <option value="COMMERCIAL INSPECTORATE">COMMERCIAL INSPECTORATE</option>
+                                                <option value="BUSINESS DEV.">BUSINESS DEV.</option>
+                                                <option value="ADVERTISING">ADVERTISING</option>
+                                                <option value="DPCP">DPCP</option>
+                                                <option value="PUBLIC AFFAIRS DEPARTMENT">PUBLIC AFFAIRS DEPARTMENT</option>
+                                                <option value="CONSUMER PROTECTION DEPT">CONSUMER PROTECTION DEPT</option>
+                                                <option value="DIRECTOR OF ENGINEERING SERVICES">DIRECTOR OF ENGINEERING SERVICES</option>
+                                                <option value="DES">DES</option>
+                                                <option value="ELECTRICAL">ELECTRICAL</option>
+                                                <option value="MECHANICAL">MECHANICAL</option>
+                                                <option value="CIVIL BUILDING">CIVIL BUILDING</option>
+                                                <option value="LAND, WATER SURVEY">LAND, WATER SURVEY</option>
+                                                <option value="SAFETY MAGT. SYSTEM">SAFETY MAGT. SYSTEM</option>
+                                                <option value="ESTATE MANAGEMENT">ESTATE MANAGEMENT</option>
+                                                <option value="PROJECT">PROJECT</option>
+                                                <option value="DIRECTOR OF CARGO DEVELOPMENT SERVICES">DIRECTOR OF CARGO DEVELOPMENT SERVICES</option>
+                                                <option value="CARGO">CARGO</option>
+                                                <option value="DIRECTOR OF FINANCE ACCOUNTS">DIRECTOR OF FINANCE ACCOUNTS</option>
+                                                <option value="DFA">DFA</option>
+                                                <option value="ACCOUNTS">ACCOUNTS</option>
+                                                <option value="FINANCE">FINANCE</option>
+                                                <option value="BUDGET">BUDGET</option>
+                                                <option value="CREDIT CONTROL">CREDIT CONTROL</option>
+                                                <option value="DIRECTOR OF SPECIAL DUTIES">DIRECTOR OF SPECIAL DUTIES</option>
+                                                <option value="SPECIAL DUTIES">SPECIAL DUTIES</option>
+                                                <option value="DIRECTOR OF AIRPORT OPERATIONS">DIRECTOR OF AIRPORT OPERATIONS</option>
+                                                <option value="DAO">DAO</option>
+                                                <option value="AIRFIELD OPERATIONS">AIRFIELD OPERATIONS</option>
+                                                <option value="FACILITATIONS">FACILITATIONS</option>
+                                                <option value="AERODROME RESCUE FIRE FIGHTING SERVICES">AERODROME RESCUE FIRE FIGHTING SERVICES</option>
+                                                <option value="AIRPORT SERVICES">AIRPORT SERVICES</option>
+                                                <option value="ENVIRONMENTAL MANAGEMENT">ENVIRONMENTAL MANAGEMENT</option>
+                                                <option value="REGIONAL AIRPORT SERVICES">REGIONAL AIRPORT SERVICES</option>
+                                                <option value="DIRECTOR OF AIRPORT SECURITY SERVICE">DIRECTOR OF AIRPORT SECURITY SERVICE</option>
+                                                <option value="DIRECTOR OF SECURITY SERVICES">DIRECTOR OF SECURITY SERVICES</option>
+                                                <option value="AVIATION SECURITY">AVIATION SECURITY</option>
+                                                <option value="INTELLIGENCE INVESTIGATION">INTELLIGENCE INVESTIGATION</option>
+                                                <option value="LIAISON">LIAISON</option>
+                                                <option value="HR / TECHNOLOGY CAPACITY BUILDING">HR / TECHNOLOGY CAPACITY BUILDING</option>
+                                                <option value="SECURITY ADMINISTRATION">SECURITY ADMINISTRATION</option>
+                                                <option value="CIVIL">CIVIL</option>
+                                                <option value="MECHANICAL">MECHANICAL</option>
+                                                <option value="ELECTRICAL">ELECTRICAL</option>
+                                            </select>
                                             @error('department')
                                                 <span style="color:red;">{{ $message }}</span>
                                             @enderror
@@ -157,11 +226,49 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-12">
+                                     <div class="col-lg-12">
                                         <div class="form-clt">
-                                            <span>Station </span>
-                                            <input type="text" name="station" id="station20"
-                                                placeholder="e.g. Headquarters" required>
+                                            <span>Station</span>
+                                            <select class="single-select w-100" name="station" id="station" required>
+                                                <option value="ABUJA">ABUJA</option>
+                                                <option value="AKURE">AKURE</option>
+                                                <option value="AKWA-IBOM">AKWA-IBOM</option>
+                                                <option value="ANAMBRA">ANAMBRA</option>
+                                                <option value="ASABA">ASABA</option>
+                                                <option value="BAUCHI">BAUCHI</option>
+                                                <option value="BAYELSA">BAYELSA</option>
+                                                <option value="BEBI-C/RIVER">BEBI-C/RIVER</option>
+                                                <option value="BENIN">BENIN</option>
+                                                <option value="CALABAR">CALABAR</option>
+                                                <option value="DUTSE">DUTSE</option>
+                                                <option value="EBONYI">EBONYI</option>
+                                                <option value="EKITI">EKITI</option>
+                                                <option value="ENUGU">ENUGU</option>
+                                                <option value="GOMBE">GOMBE</option>
+                                                <option value="HEAD QUARTER">HEAD QUARTER</option>
+                                                <option value="HEADQUARTER ABUJA">HEADQUARTER ABUJA</option>
+                                                <option value="IBADAN">IBADAN</option>
+                                                <option value="ILORIN">ILORIN</option>
+                                                <option value="JALINGO">JALINGO</option>
+                                                <option value="JOS">JOS</option>
+                                                <option value="KADUNA">KADUNA</option>
+                                                <option value="KANO">KANO</option>
+                                                <option value="KATSINA">KATSINA</option>
+                                                <option value="KEBBI">KEBBI</option>
+                                                <option value="MAIDUGURI">MAIDUGURI</option>
+                                                <option value="MAKURDI">MAKURDI</option>
+                                                <option value="MINNA">MINNA</option>
+                                                <option value="MURTALA MOHAMMED">MURTALA MOHAMMED</option>
+                                                <option value="OGUN">OGUN</option>
+                                                <option value="OSUBI">OSUBI</option>
+                                                <option value="OWERRI">OWERRI</option>
+                                                <option value="PORT HARCOURT">PORT HARCOURT</option>
+                                                <option value="SOKOTO">SOKOTO</option>
+                                                <option value="YENEGOA">YENEGOA</option>
+                                                <option value="YOBE">YOBE</option>
+                                                <option value="YOLA">YOLA</option>
+                                                <option value="ZARIA">ZARIA</option>
+                                            </select>
                                             @error('station')
                                                 <span style="color:red;">{{ $message }}</span>
                                             @enderror
