@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="x-apple-disable-message-reformatting">
-  <title>HMO ATTENDEE EXPORT</title>
+  <title>HMO EXPORT</title>
   <style>
     html, body { margin:0 auto !important; padding:0 !important; height:100% !important; width:100% !important; }
     * { -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; }

@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="FAAN ICT">
-    <meta name="description" content="HMO - FAAN">
+    <meta name="description" content="FAAN HMO preference Form">
     <!-- ======== Page title ============ -->
     <title>HMO - FAAN</title>
     <!--<< Favicon >>-->
