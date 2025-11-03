@@ -22,6 +22,7 @@ class HomeController extends Controller
         $request->validate([
             "name"=>'required|string',
             "department"=>'required|string',
+            "email"=>'required|email',
             "staff_number"=>'required|numeric',
             "station"=>'required|string',
             "phone"=>'required|numeric',
@@ -67,6 +68,7 @@ class HomeController extends Controller
             $attendee->fullname = $request->get('name');
             $attendee->state_of_residence = $request->get('state_of_residence');
             $attendee->staff_number = $request->get('staff_number');
+            $attendee->email = $request->get('email');
             $attendee->nin = $request->get('nin');
             $attendee->phone = $request->get('phone');
             $attendee->hmo = $request->get('hmo');
@@ -86,6 +88,7 @@ class HomeController extends Controller
             'hmo' => $request->get('hmo'),
             'station' => $request->get('station'),
             'department' => $request->get('department'),
+            'email' => $request->get('email'),
             'ref' => $ref,
         ]);
 

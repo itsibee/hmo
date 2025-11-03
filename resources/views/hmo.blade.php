@@ -217,6 +217,18 @@
 
                                     <div class="col-lg-12">
                                         <div class="form-clt">
+                                            <span>Official Email</span>
+                                            
+                                            <input type="email" name="email" id="email2"
+                                                placeholder="Your email" required>
+                                            @error('email')
+                                                <span style="color:red;">{{ $message }}</span>
+                                            @enderror
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-clt">
                                             <span>Staff Number</span>
                                             <input type="number" name="staff_number" id="staff_number20"
                                                 placeholder="e.g. 013043" required>

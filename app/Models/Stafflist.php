@@ -9,6 +9,6 @@ class Stafflist extends Model
 {
     use HasFactory;
 
-    protected $fillable = ["fullname","department","staff_number","station","phone","nin","state_of_residence","hmo","ref"];
+    protected $fillable = ["fullname","department","staff_number","station","phone","nin","state_of_residence","hmo","ref","email"];
 
 }

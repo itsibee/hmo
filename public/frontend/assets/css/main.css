@@ -8914,7 +8914,6 @@ p.sticky-label {
   outline: none;
   color: var(--text);
   position: relative;
-  
 }
 
 .register-wrapper-3 .register-form-box .form-clt textarea  {
@@ -8947,7 +8946,6 @@ p.sticky-label {
   line-height: 1;
   background-color: transparent;
   border-radius: 4px;
-  
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
 .register-wrapper-3 .register-form-box .form-clt .single-select i {
